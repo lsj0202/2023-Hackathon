@@ -1,0 +1,11 @@
+.center{
+    font-family: "tway_sky";
+    text-align: center;
+    display:flex;
+    justify-content: center;
+
+}
+.imgFile{
+    width:90%;
+    height:500px;
+}

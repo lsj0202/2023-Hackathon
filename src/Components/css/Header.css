@@ -1,0 +1,47 @@
+*{
+    margin:0;
+    padding:0;
+}
+.header{
+    display:flex;
+}
+ul,li{
+    list-style: none;
+    font-family: "tway_sky";
+    font-weight: 300;
+    font-size: large;
+}
+a{
+    text-decoration: none;
+}
+.header{
+    width:100%;
+    height:90px;
+    background-image: linear-gradient(to right,rgb(131, 114, 205),rgb(107, 84, 208),rgb(92, 67, 204),rgb(98, 72, 211),rgb(84, 60, 195));
+    color:white;
+    display:flex;
+    justify-content: space-around;
+    gap:10%;
+}
+.header h1{
+    font-family: "tway_sky";
+    font-weight: 300;
+    display:flex;
+    align-items: center;
+    text-align: center;
+}
+.header .list{
+    display:flex;
+    align-items: center;
+    gap: 120px;
+
+}
+.header .img1{
+    margin-right: 20px;
+    width:30px;
+    height:30px;
+}
+
+
+
+
