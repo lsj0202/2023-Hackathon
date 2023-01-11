@@ -2,46 +2,82 @@
     margin:0;
     padding:0;
 }
-.header{
-    display:flex;
+
+body {
+    position: relative;
 }
-ul,li{
-    list-style: none;
-    font-family: "tway_sky";
-    font-weight: 300;
-    font-size: large;
-}
-a{
-    text-decoration: none;
-}
+
 .header{
     width:100%;
     height:90px;
-    background-image: linear-gradient(to right,rgb(131, 114, 205),rgb(107, 84, 208),rgb(92, 67, 204),rgb(98, 72, 211),rgb(84, 60, 195));
+    background-image: linear-gradient(to right,rgb(128, 189, 255),rgb(127, 189, 255),rgb(75, 162, 255),rgb(53, 151, 255),rgb(5, 126, 255));
     color:white;
     display:flex;
-    justify-content: space-around;
-    gap:10%;
 }
 .header h1{
-    font-family: "tway_sky";
     font-weight: 300;
     display:flex;
     align-items: center;
     text-align: center;
+    cursor: pointer;
+    color:white;
 }
 .header .list{
     display:flex;
     align-items: center;
-    gap: 120px;
-
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 100;
 }
-.header .img1{
-    margin-right: 20px;
+
+
+.header2 {
+    display: flex;
+    width: 40%;
+    flex-direction: row;
+    flex: 1;
+    justify-content: right;
+    gap: 9%;
+    padding-right: 4%;
+}
+
+.header1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+    width: 20%;
+}
+
+.img1 {
     width:30px;
     height:30px;
 }
 
+.small {
+    position: absolute;
+    height: 0%;
+    width: 0%;
+    top: 0;
+    left: 0;
+    background-color: white;
+    display: none;
+    transition-duration: 0.000000000001s;
+    transition-timing-function: ease-out;
+    color: black;
+}
 
+.closebtn {
+    display: flex;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
 
-
+.filter {
+    color:black;
+}
