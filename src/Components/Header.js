@@ -1,6 +1,6 @@
 import './css/Header.css';
-import headLogo from '../assets/images/menu 1.png';
-import cp from '../assets/images/cp.png';
+import headLogo from '../assets/menu 1.png';
+import cp from '../assets/cp.png';
 import {Link} from "react-router-dom";
 
 import {useRef} from "react";

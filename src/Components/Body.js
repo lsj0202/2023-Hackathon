@@ -1,5 +1,5 @@
 import './css/Body.css';
-import camera from '../assets/images/Vector.png';
+import camera from '../assets/Vector.png';
 
 function Body() {
     return(
