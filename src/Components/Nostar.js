@@ -19,7 +19,7 @@ function Nostar() {
                     <div class="top">
                         <img src={n.src} alt='' />
                         <div className='images1'>
-                            <span>{n.heart}</span>
+                            <span></span>
                             <span>#{n.weight}</span><br/>
                             <span>#{n.height}</span><br/>
                             <span>#{n.gender}</span><br/>
