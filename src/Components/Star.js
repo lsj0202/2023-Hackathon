@@ -1,5 +1,5 @@
 import './css/Star.css';
-import star from '../assets/images/star.png';
+import star from '../assets/star.png';
 
 function Star() {
     return(
